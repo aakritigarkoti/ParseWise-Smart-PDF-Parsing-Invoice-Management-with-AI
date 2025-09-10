@@ -3,7 +3,12 @@
 A web dashboard to **upload PDFs, extract invoice data using AI (Gemini), edit/save it, and manage invoices in MongoDB**.
 
 ---
+## 🖼️ Screenshots
+**PDF Viewer**  
+![PDF Viewer](screenshot/one.png)
 
+**Editable Invoice Form**  
+![Invoice Form](screenshot/two.png)
 ## 🎯 Project Overview
 
 This project allows users to:
@@ -23,10 +28,11 @@ This project allows users to:
 +--------------------+---------------------------+
 | PDF Viewer | Editable Invoice Form |
 | (Left Panel) | (Right Panel) |
-| Zoom & Navigation | Vendor, Invoice, Items |
+| Zoom & Navigation | Vendor, Invoice, LineItems|
 +--------------------+---------------------------+
 
-
+yaml
+Copy code
 
 ---
 
@@ -49,7 +55,7 @@ npm install
 3️⃣ Environment Variables
 Create a .env file in apps/api:
 
-ini
+env
 Copy code
 MONGODB_URI=<your-mongodb-uri>
 GEMINI_API_KEY=<your-existing-gemini-api-key>
