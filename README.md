@@ -9,6 +9,15 @@ A web dashboard to **upload PDFs, extract invoice data using AI (Gemini), edit/s
 
 **Editable Invoice Form**  
 ![Invoice Form](screenshot/two.png)
+
+## 🎬 Demo Video
+[ScreenR.mp4](asset/ScreenR.mp4)
+
+<video width="600" controls>
+  <source src="asset/ScreenR.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## 🎯 Project Overview
 
 This project allows users to:
