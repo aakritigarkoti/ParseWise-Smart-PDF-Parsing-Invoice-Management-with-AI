@@ -11,6 +11,7 @@ A web dashboard to **upload PDFs, extract invoice data using AI (Gemini), edit/s
 ![Invoice Form](screenshot/two.png)
 
 ## 🎬 Demo Video
+upload → view → extract → edit → save → list → update → delete
 [ScreenR.mp4](asset/ScreenR.mp4)
 
 <video width="600" controls>
